@@ -10,11 +10,7 @@
   "use strict";
 
 
-
- /**
-   * Background nilay
-   */
-
+  
 
 
 
@@ -241,5 +237,8 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+
+
 
 })()
