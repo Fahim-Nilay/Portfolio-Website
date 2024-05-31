@@ -6,8 +6,8 @@
     addListeners();
 
     function initAnimation() {
-        width = 800;
-        height = 600;
+        width = window.innerWidth;
+        height = window.innerHeight;
         target = {x: width/2, y: height/2};
 
         canvas = document.getElementById('demo-canvas');
