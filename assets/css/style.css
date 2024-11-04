@@ -887,6 +887,13 @@ a:hover {
   position: absolute;
 }
 
+/* Adjust for mobile view */
+@media (max-width: 767px) {
+  .hero .hero-content {
+    padding-bottom: 60%; /* Adjust as needed to lift the content */
+  }
+}
+
 .hero .overlay-itro {
   /* background-color: rgba(0, 0, 0, 0.6); */
   position: absolute;
@@ -903,6 +910,7 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
+
 
 @media (min-width: 768px) {
   .hero .hero-title {
