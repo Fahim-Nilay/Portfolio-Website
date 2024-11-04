@@ -6,8 +6,8 @@
     addListeners();
 
     function initAnimation() {
-        width = 1684.33;
-        height = 781.33;
+        width = innerWidth;
+        height = innerHeight;
         target = {x: width/2, y: height/2};
 
         canvas = document.getElementById('demo-canvas');
@@ -149,7 +149,7 @@
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(255,255,255,'+ _this.active+')';
             ctx.fill();
         };
     }

@@ -97,7 +97,7 @@ a:hover {
   background-position: center center;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
   }
@@ -869,6 +869,12 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#demo-canvas {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  display: block; /* Prevents any inline gap */
+}
+
 .hero {
   height: 100vh;
   position: relative;
@@ -938,6 +944,7 @@ a:hover {
   }
 }
 
+
 .hero-single .breadcrumb {
   background-color: transparent;
   color: #e43c5c;
@@ -955,6 +962,8 @@ a:hover {
   color: #fff;
 }
 
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -971,7 +980,7 @@ a:hover {
   margin-left: 10px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
