@@ -890,7 +890,7 @@ a:hover {
 /* Adjust for mobile view */
 @media (max-width: 767px) {
   .hero .hero-content {
-    padding-bottom: 60%; /* Adjust as needed to lift the content */
+    padding-bottom:70%; /* Adjust as needed to lift the content */
   }
 }
 
