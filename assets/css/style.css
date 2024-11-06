@@ -12,7 +12,10 @@ FFFF08
 
 /*--------------------------------------------------------------
 # General
+
 --------------------------------------------------------------*/
+
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -104,13 +107,8 @@ a:hover {
 }
 
 .overlay-mf {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(rgba(0, 0, 0, 0.542), rgba(0, 0, 0, 0.8));
 }
-
-
-
-
-
 
 
 .overlay-mf {
@@ -905,9 +903,13 @@ a:hover {
   opacity: 0.9;
 }
 
+
+
+
 .hero .hero-title {
+  font-family: "Gotu", sans-serif;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 3rem;
 }
 
